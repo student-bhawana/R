@@ -68,6 +68,7 @@ export default function SinglePost() {
                   className="singlePostIcon far fa-edit"
                   onClick={() => setUpdateMode(true)}
                 ></i>
+
                 <i
                   className="singlePostIcon far fa-trash-alt"
                   onClick={handleDelete}
